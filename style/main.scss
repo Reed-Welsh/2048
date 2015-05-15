@@ -336,17 +336,17 @@ hr {
   $limit: 11;
 
   // Colors for all 11 states, false = no special color
-  $special-colors: false false, // 2
-                   false false, // 4
-                   #f78e48 true, // 8
-                   #fc5e2e true, // 16
-                   #ff3333 true, // 32
-                   #ff0000 true, // 64
-                   false true, // 128
-                   false true, // 256
-                   false true, // 512
-                   false true, // 1024
-                   false true; // 2048
+  $special-colors: false false, // Reed
+                   false false, // Welsh
+                   #f78e48 true, // Hoyas
+                   #fc5e2e true, // Of
+                   #ff3333 true, // Today
+                   #ff0000 true, // &
+                   false true, // Tomorrow
+                   false true, // file:///Users/Nickwelsh/Desktop/Screen%20Shot%202015-05-14%20at%208.40.23%20PM.png
+                   false true, // file:///Users/Nickwelsh/Downloads/photo.JPG
+                   false true, // http://images6.fanpop.com/image/photos/33700000/USA-united-states-of-america-33748624-1333-1333.jpg
+                   false true; // file:///Users/Nickwelsh/Library/Containers/com.apple.mail/Data/Library/Mail%20Downloads/06E30176-806A-4F05-860D-41BBDCD4AD91/IMG_1869.jpg
 
   // Build tile colors
   @while $exponent <= $limit {
